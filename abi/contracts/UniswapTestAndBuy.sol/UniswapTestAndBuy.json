@@ -1,0 +1,82 @@
+[
+  {
+    "inputs": [],
+    "name": "NotEnoughETH",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "TokenBuyFailure",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "TokenBuyTestFailure",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "TokenSellTestFailure",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "UNISWAP_ROUTER",
+    "outputs": [
+      {
+        "internalType": "contract IUniswapRouterV2",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "WETH",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "token",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "testAmountIn",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOutMin",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct UniswapTestAndBuy.TestAndBuyArgs",
+        "name": "args",
+        "type": "tuple"
+      }
+    ],
+    "name": "testAndBuy",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "receive"
+  }
+]
