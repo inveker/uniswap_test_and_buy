@@ -38,3 +38,11 @@ Example call ethers-lib:
         testAmountIn: ethers.utils.parseEth('0.001'),
         amountOutMin: 0
     }, { value: ethers.utils.parseEth('0.201') });
+
+## Use in python:
+
+1) copy file ./python_integration/uniswap_test_and_buy.py in u project
+2) change variable FOLDER_PATH_UNISWAP_TEST_AND_BUY
+3) call function uniswap_test_and_buy_test(list): list
+
+see example in ./python_integration/example.py
